@@ -1,0 +1,186 @@
+﻿@model DMS.Models.OfferAddEditModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>OfferAddEditModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        @*<dt>
+            @Html.DisplayNameFor(model => model.OrganizationId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrganizationId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PersonId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PersonId)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OfferNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OfferNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiscountPercent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiscountPercent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiscountAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiscountAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OfferAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OfferAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValidityDays)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValidityDays)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValidityDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValidityDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Disclaimer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Disclaimer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Body)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Body)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Currency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Currency)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrencyRate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrencyRate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VatAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VatAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReasonForDeclining)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReasonForDeclining)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsAccepted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsAccepted)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsDeleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsDeleted)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OfferId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

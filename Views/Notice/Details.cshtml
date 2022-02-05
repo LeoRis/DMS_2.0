@@ -1,0 +1,82 @@
+﻿@model DMS.Models.NoticeAddEditModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NoticeAddEditModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NoticeText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoticeText)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoticeNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoticeNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoticeDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoticeDate)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.InvoiceId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InvoiceId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PersonId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PersonId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrganizationId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrganizationId)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsDeleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsDeleted)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NoticeId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
